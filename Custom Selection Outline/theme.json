@@ -1,0 +1,163 @@
+{
+	"name": "Custom Selection Outline",
+	"author": "ofsak",
+	"target": "Other",
+	"version": "v1.0",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+		"Color": {
+			"type": "dropdown",
+			"default": "Default",
+			"values": {
+				"Default": {},
+				"Custom": {}
+			},
+			"components": [
+				{
+					"name": "color",
+					"type": "color-picker",
+					"on": "Custom",
+					"default": "#ff0000",
+					"css_variable": "outline-color-var",
+					"tabs": [
+						"SP"
+					]
+				}
+			]
+		},
+		"Style": {
+			"type": "dropdown",
+			"default": "None",
+			"values": {
+				"None": {
+					"--outline-style-var": [
+						"none",
+						"SP"
+					]
+				},
+				"Dotted": {
+					"--outline-style-var": [
+						"dotted",
+						"SP"
+					]
+				},
+				"Dashed": {
+					"--outline-style-var": [
+						"dashed",
+						"SP"
+					]
+				},
+				"Double": {
+					"--outline-style-var": [
+						"double",
+						"SP"
+					]
+				},
+				"Groove": {
+					"--outline-style-var": [
+						"groove",
+						"SP"
+					]
+				},
+				"Ridge": {
+					"--outline-style-var": [
+						"ridge",
+						"SP"
+					]
+				},
+				"Inset": {
+					"--outline-style-var": [
+						"inset",
+						"SP"
+					]
+				},
+				"Outset": {
+					"--outline-style-var": [
+						"outset",
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Size": {
+			"type": "slider",
+			"default": "2",
+			"values": {
+				"1": {
+					"--outline-size-var": [
+						"1px",
+						"SP"
+					]
+				},
+				"1.5": {
+					"--outline-size-var": [
+						"1.5px",
+						"SP"
+					]
+				},
+				"2": {
+					"--outline-size-var": [
+						"2px",
+						"SP"
+					]
+				},
+				"2.5": {
+					"--outline-size-var": [
+						"2.5px",
+						"SP"
+					]
+				},
+				"3": {
+					"--outline-size-var": [
+						"3px",
+						"SP"
+					]
+				},
+				"3.5": {
+					"--outline-size-var": [
+						"3.5px",
+						"SP"
+					]
+				},
+				"4": {
+					"--outline-size-var": [
+						"4px",
+						"SP"
+					]
+				},
+				"4.5": {
+					"--outline-size-var": [
+						"4.5px",
+						"SP"
+					]
+				},
+				"5": {
+					"--outline-size-var": [
+						"5px",
+						"SP"
+					]
+				},
+				"5.5": {
+					"--outline-size-var": [
+						"5.5px",
+						"SP"
+					]
+				},
+				"6": {
+					"--outline-size-var": [
+						"6px",
+						"SP"
+					]
+				}	
+			},
+			"components": []
+		}
+	}
+}
