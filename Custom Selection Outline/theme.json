@@ -2,7 +2,7 @@
 	"name": "Custom Selection Outline",
 	"author": "ofsak",
 	"target": "Tweak",
-	"version": "v1.0.1",
+	"version": "v1.0.2",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
