@@ -1,6 +1,6 @@
 .BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
 	animation: none;
 	outline-style: var(--CSO-outline-style);
-	outline-color: var(--CSO-outline-color-var);
-	outline-width: var(--CSO-outline-size-var);
+	outline-color: var(--CSO-outline-color);
+	outline-width: var(--CSO-outline-size);
 }
