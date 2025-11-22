@@ -24,7 +24,7 @@
 					"type": "color-picker",
 					"on": "Custom",
 					"default": "#ff0000",
-					"css_variable": "outline-color-var",
+					"css_variable": "CSO-outline-color",
 					"tabs": [
 						"SP"
 					]
@@ -36,49 +36,49 @@
 			"default": "None",
 			"values": {
 				"None": {
-					"--outline-style-var": [
+					"--CSO-outline-style": [
 						"none",
 						"SP"
 					]
 				},
 				"Dotted": {
-					"--outline-style-var": [
+					"--CSO-outline-style": [
 						"dotted",
 						"SP"
 					]
 				},
 				"Dashed": {
-					"--outline-style-var": [
+					"--CSO-outline-style": [
 						"dashed",
 						"SP"
 					]
 				},
 				"Double": {
-					"--outline-style-var": [
+					"--CSO-outline-style": [
 						"double",
 						"SP"
 					]
 				},
 				"Groove": {
-					"--outline-style-var": [
+					"--CSO-outline-style": [
 						"groove",
 						"SP"
 					]
 				},
 				"Ridge": {
-					"--outline-style-var": [
+					"--CSO-outline-style": [
 						"ridge",
 						"SP"
 					]
 				},
 				"Inset": {
-					"--outline-style-var": [
+					"--CSO-outline-style": [
 						"inset",
 						"SP"
 					]
 				},
 				"Outset": {
-					"--outline-style-var": [
+					"--CSO-outline-style": [
 						"outset",
 						"SP"
 					]
@@ -91,67 +91,67 @@
 			"default": "2",
 			"values": {
 				"1": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"1px",
 						"SP"
 					]
 				},
 				"1.5": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"1.5px",
 						"SP"
 					]
 				},
 				"2": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"2px",
 						"SP"
 					]
 				},
 				"2.5": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"2.5px",
 						"SP"
 					]
 				},
 				"3": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"3px",
 						"SP"
 					]
 				},
 				"3.5": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"3.5px",
 						"SP"
 					]
 				},
 				"4": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"4px",
 						"SP"
 					]
 				},
 				"4.5": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"4.5px",
 						"SP"
 					]
 				},
 				"5": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"5px",
 						"SP"
 					]
 				},
 				"5.5": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"5.5px",
 						"SP"
 					]
 				},
 				"6": {
-					"--outline-size-var": [
+					"--CSO-outline-size": [
 						"6px",
 						"SP"
 					]
